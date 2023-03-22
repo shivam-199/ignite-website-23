@@ -1,0 +1,438 @@
+.root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: var(--primarySolid);
+}
+
+.ignite_home {
+    background-image: url("/assets/icons/ignite-bg.png");
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ignite_desc {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logos_div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_logos {
+    height: 100px;
+    margin-right: 10px;
+    margin-bottom: 40px;
+}
+
+.ignite_iitgn_text {
+    font-size: 1.5em;
+    font-weight: 600;
+    text-align: center;
+    color: var(--white);
+    font-family: 'oxanium';
+}
+
+.register_btn {
+    color: var(--white);
+    font-family: "oxanium";
+    background-color: #5271FF;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.ignite_hr {
+    height: 5px;
+    background-color: var(--white);
+    width: 80%;
+    margin: 10px 0px;
+}
+
+.ignite_dates {
+    font-size: 4.5em;
+    font-weight: 700;
+    text-align: center;
+    color: var(--white);
+    font-family: 'oxanium';
+}
+
+.ignite_logo_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.ignite_logo {
+    width: 350px;
+    height: 350px;
+}
+
+.ignite_text {
+    font-size: 5em;
+    font-weight: 700;
+    text-align: center;
+    color: var(--white);
+    font-family: 'audiowide';
+
+    /* font-size: 80px; */
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+.mainpage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 0;
+    background-color: var(--black);
+}
+
+.title {
+    font-family: "share";
+    color: var(--white);
+    font-size: 3em;
+    text-align: center;
+}
+
+.subtitle {
+    font-family: "share";
+    color: var(--white);
+    font-size: 2.5em;
+    max-width: 50%;
+    text-align: center;
+    line-height: 1.5em;
+    margin: 20px auto;
+}
+
+
+.desc {
+    font-family: "share";
+    color: var(--white);
+    font-size: 1.25em;
+    max-width: 75%;
+    text-align: center;
+    line-height: 1.5em;
+    margin: 20px auto;
+}
+
+/* .event_main:before {
+    content:"";
+    display:block;
+    height:90px; 
+    margin:-90px 0 0; 
+} */
+
+.event_main {
+    margin: 40px 0px;
+}
+
+.clubsOuter {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.clubCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--black);
+    border-radius: 10px;
+    border: 2px solid var(--red);
+    max-width: 300px;
+    margin: 20px;
+    width: 33%;
+}
+
+.bannerOuter {
+    aspect-ratio: 1/1;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.clubBanner {
+    max-width: 99%;
+    height: 100%;
+    background-color: var(--black);
+}
+
+.clubInfo {
+    padding: 20px;
+    background-color: var(--black);
+    height: 100%;
+    border-radius: 10px;
+}
+
+.clubName {
+    color: var(--secondaryText);
+    text-transform: capitalize!important;
+    font-size: 1.5em;
+}
+
+.clubDesc {
+    color: var(--white);
+    font-size: 1em;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .ignite_desc {
+        width: 65%;
+    }
+    
+    .main_logos {
+        height: 80px;
+    }
+    
+    .ignite_iitgn_text {
+        font-size: 1.5em;
+    }
+
+    .ignite_dates {
+        font-size: 4.25em;
+    }
+    
+    .ignite_logo_div {
+        width: 35%;
+    }
+    
+    .ignite_logo {
+        width: 325px;
+        height: 325px;
+    }
+    
+    .ignite_text {
+        font-size: 4.75em;
+    }
+    .subtitle {
+        font-size: 2.5em;
+        max-width: 50%;
+    }
+    
+    .desc {
+        font-size: 1.25em;
+        max-width: 75%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .ignite_desc {
+        width: 65%;
+    }
+    
+    .ignite_iitgn_text {
+        font-size: 1.25em;
+    }
+
+    .ignite_dates {
+        font-size: 4em;
+    }
+    
+    .ignite_logo_div {
+        width: 35%;
+    }
+    
+    .ignite_logo {
+        width: 300px;
+        height: 300px;
+    }
+    
+    .ignite_text {
+        font-size: 4.5em;
+    }
+    .title {
+        font-size: 2.5em;
+    }
+    .welcomeText {
+        font-size: 3.5em;
+        width: 75%;
+        
+    }
+
+    .subtitle {
+        font-size: 2.5em;
+        max-width: 50%;
+    }
+    
+    .desc {
+        font-size: 1.25em;
+        max-width: 85%;
+    }
+
+    .clubName {
+        font-size: 1.35em;
+    }
+    
+    .clubDesc {
+        font-size: 0.9em;
+    }
+    .clubInfo {
+        padding: 10px;
+    }
+    .clubCard {
+        max-width: 300px;
+        width: auto;
+    }
+
+    
+}
+  
+@media screen and (max-width: 768px) {
+    .ignite_home {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        align-items: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 40px;
+    }
+    
+    .ignite_desc {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .main_logos {
+        height: 70px;
+        margin-right: 10px;
+        margin-bottom: 40px;
+    }
+    
+    .ignite_iitgn_text {
+        font-size: 1.25em;
+        font-weight: 600;
+        text-align: center;
+        color: var(--white);
+        font-family: 'oxanium';
+    }
+    
+    .ignite_hr {
+        height: 5px;
+        background-color: var(--white);
+        width: 80%;
+        margin: 10px 0px;
+    }
+    
+    .ignite_dates {
+        font-size: 4em;
+        font-weight: 700;
+        text-align: center;
+        color: var(--white);
+        font-family: 'oxanium';
+    }
+    
+    .ignite_logo_div {
+        width: 95%;
+        margin-bottom: 20px;
+    }
+    
+    .ignite_logo {
+        width: 225px;
+        height: 225px;
+    }
+    
+    .ignite_text {
+        font-size: 3.5em;
+    }
+    
+    .mainpage {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px 0;
+        background-color: var(--black);
+    }
+    .title {
+        font-size: 2.25em;
+    }
+    .welcomeText {
+        font-size: 2.75em;
+        width: 90%;
+    }
+    .subtitle {
+        font-size: 2.5em;
+        max-width: 50%;
+    }
+    
+    .desc {
+        font-size: 1.25em;
+        max-width: 95%;
+    }
+    .clubCard {
+        max-width: 350px;
+        width: auto;
+    }
+
+    
+}
+  
+@media screen and (max-width: 480px) {
+    .main_logos {
+        height: 60px;
+        margin-right: 10px;
+        margin-bottom: 40px;
+    }
+    .ignite_dates {
+        font-size: 2.75em;
+    }
+    .welcomeText {
+        font-size: 2em;
+        width: 95%;
+    }
+    .subtitle {
+        font-size: 2em;
+        max-width: 75%;
+    }
+    
+    .desc {
+        font-size: 1em;
+        max-width: 90%;
+    }
+    .card{
+        max-width: 90%;
+    }
+    .clubCard {
+        width: 300px;
+    }
+    .clubName {
+        text-align: center;
+    }
+    
+}
+  
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+}
