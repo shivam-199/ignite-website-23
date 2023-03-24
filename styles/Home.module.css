@@ -39,7 +39,13 @@
     margin-right: 10px;
     margin-bottom: 40px;
 }
-
+.ignite_sub_text {
+    font-size: 2em;
+    font-weight: 600;
+    text-align: center;
+    color: var(--white);
+    font-family: 'oxanium';
+}
 .ignite_iitgn_text {
     font-size: 1.5em;
     font-weight: 600;
@@ -67,7 +73,7 @@
     font-size: 4.5em;
     font-weight: 700;
     text-align: center;
-    color: var(--white);
+    color: var(--g20-red);
     font-family: 'oxanium';
 }
 
@@ -94,6 +100,7 @@
     /* font-size: 80px; */
     color: #fff;
     text-align: center;
+    text-shadow: 0 0 20px #CDF4F1, 0 0 20px #CDF4F1;
     -webkit-animation: glow 1s ease-in-out infinite alternate;
     -moz-animation: glow 1s ease-in-out infinite alternate;
     animation: glow 1s ease-in-out infinite alternate;
@@ -213,6 +220,7 @@
     }
 
     .ignite_dates {
+        color: var(--g20-red);
         font-size: 4.25em;
     }
     
@@ -249,6 +257,7 @@
     }
 
     .ignite_dates {
+        color: var(--g20-red);
         font-size: 4em;
     }
     
@@ -304,7 +313,7 @@
 @media screen and (max-width: 768px) {
     .ignite_home {
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
         justify-content: space-around;
         align-items: center;
         background-repeat: no-repeat;
@@ -344,9 +353,6 @@
     .ignite_dates {
         font-size: 4em;
         font-weight: 700;
-        text-align: center;
-        color: var(--white);
-        font-family: 'oxanium';
     }
     
     .ignite_logo_div {
@@ -430,9 +436,9 @@
   
 @-webkit-keyframes glow {
     from {
-      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+        text-shadow: 0 0 20px #CDF4F1, 0 0 20px #CDF4F1;
     }
     to {
-      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+        text-shadow: 0 0 30px #2B8FD6, 0 0 40px #2B8FD6;
     }
 }

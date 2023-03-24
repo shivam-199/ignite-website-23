@@ -24,6 +24,8 @@ html {
   --blue: #0000ff;
   --header-hover: #f22727;
   --blurBrown: #5e380c;
+  --g20-red: #EE3624;
+  --ignite-flow: #CDF4F1;
 }
 body {
   padding: 0;

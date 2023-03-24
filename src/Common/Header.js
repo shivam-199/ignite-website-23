@@ -19,6 +19,12 @@ const Header = () => {
 				<Link href="/">
 					<a className={styles.headerLink}>
 						<img
+							src={"assets/icons/g20-logo.png"}
+							height="20%"
+							width="20%"
+							className={styles.iitgn_logo_header}
+						/>
+						<img
 							src={"assets/icons/iitgn-logo-white.png"}
 							height="20%"
 							width="20%"
@@ -30,7 +36,7 @@ const Header = () => {
 							width="20%"
 							className={styles.header_logo}
 						/>
-						Ignite
+						IGNITE
 					</a>
 				</Link>
 			</h1>

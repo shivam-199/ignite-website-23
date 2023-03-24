@@ -28,15 +28,25 @@ const Home = () => {
 					style={{ height: height }}
 					className={styles.ignite_home}
 				>
+					<div className={styles.ignite_logo_div}>
+						<img
+							className={styles.ignite_logo}
+							src="/assets/icons/ignite-logo.png"
+						/>
+						<h2 className={styles.ignite_text}>G20-IGNITE</h2>
+						<h2 className={styles.ignite_sub_text}>
+							A SCI-TECH FAIR
+						</h2>
+					</div>
 					<div className={styles.ignite_desc}>
 						<div className={styles.logos_div}>
 							<img
 								className={styles.main_logos}
-								src="/assets/icons/iitgn-logo-white.png"
+								src="/assets/icons/g20-logo.png"
 							/>
 							<img
 								className={styles.main_logos}
-								src="/assets/icons/g20-logo.png"
+								src="/assets/icons/iitgn-logo-white.png"
 							/>
 							<img
 								className={styles.main_logos}
@@ -52,16 +62,6 @@ const Home = () => {
 							{" "}
 							Register Now!{" "}
 						</button>
-					</div>
-					<div className={styles.ignite_logo_div}>
-						<img
-							className={styles.ignite_logo}
-							src="/assets/icons/ignite-logo.png"
-						/>
-						<h2 className={styles.ignite_text}>IGNITE</h2>
-						<h2 className={styles.ignite_iitgn_text}>
-							A SCI-TECH FAIR
-						</h2>
 					</div>
 				</div>
 				<div
