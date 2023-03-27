@@ -334,7 +334,7 @@
     .main_logos {
         height: 50px;
         margin-right: 10px;
-        margin-bottom: 40px;
+        margin-bottom: 20px;
     }
     
     .ignite_iitgn_text {
@@ -353,7 +353,7 @@
     }
     
     .ignite_dates {
-        font-size: 4em;
+        font-size: 3.5em;
         font-weight: 700;
     }
     
@@ -368,7 +368,11 @@
     }
     
     .ignite_text {
-        font-size: 3.5em;
+        font-size: 3em;
+    }
+
+    .ignite_sub_text {
+        font-size: 2em;
     }
     
     .mainpage {
