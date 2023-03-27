@@ -5,9 +5,14 @@ export default function Footer() {
 	return (
 		<div className={styles.root}>
 			<div className={styles.tech_council_outer}>
-				<h1 className={styles.tech_council_text}>
-					IGNITE <br /> IIT Gn
-				</h1>
+				<div className={styles.name_text}>
+					<h1 className={styles.ignite_text}>
+						G20- <br /> IGNITE
+					</h1>
+					<h1 className={styles.tech_council_text}>
+						Technical Council <br /> IIT Gandhinagar
+					</h1>
+				</div>
 				<h3 className={styles.tech_council_quote}>
 					"To create a culture where technology is the solution of
 					every problem."
@@ -36,11 +41,8 @@ export default function Footer() {
 			<div className={styles.contact_us_outer}>
 				<h1 className={styles.section_title}>CONTACT US</h1>
 				<p className={styles.contact_text}>
-					323, Acad Block 4, Indian Institute of Technology
-					Gandhinagar Palaj, Gandhinagar, Gujarat, India - 382355
-				</p>
-				<p className={styles.contact_text}>
-					technical.secretary@ iitgn.ac.in
+					Indian Institute of Technology Gandhinagar Palaj,
+					Gandhinagar, Gujarat, India - 382355
 				</p>
 
 				<div className="flex flex-row items-center">
@@ -53,6 +55,15 @@ export default function Footer() {
 					<a href={FOOTER_LINKS.social.instagram} target="_blank">
 						<img
 							src="/assets/icons/icons8-instagram-48.png"
+							className={styles.social_link}
+						/>
+					</a>
+					<a
+						href={`mailto:${FOOTER_LINKS.social.email}`}
+						target="_blank"
+					>
+						<img
+							src="/assets/icons/icons8-envelope-48.png"
 							className={styles.social_link}
 						/>
 					</a>

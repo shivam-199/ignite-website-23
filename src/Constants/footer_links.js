@@ -1,33 +1,29 @@
 const QUICK = [
 	{
 		id: 1,
-		name: "IITGn Website",
+		name: "IITGN Website",
 		path: "https://iitgn.ac.in/",
 		icon: "/assets/icons/icons8-cpu-64.png",
 	},
 	{
 		id: 2,
-		name: "Tech Council IITGn",
+		name: "Tech Council",
 		path: "https://students.iitgn.ac.in/tech-council/",
 		icon: "/assets/icons/icons8-cpu-64.png",
 	},
-	// {id: 3, name: "Recent Events", path: "/About", icon:"/assets/icons/icons8-cpu-64.png"},
-	// {
-	// 	id: 4,
-	// 	name: "Team",
-	// 	path: "/About",
-	// 	icon: "/assets/icons/icons8-cpu-64.png",
-	// },
+	{
+		id: 3,
+		name: "Academics",
+		path: "https://iitgn.ac.in/academics/",
+		icon: "/assets/icons/icons8-cpu-64.png",
+	},
 ];
 
 const SOCIAL = {
-	facebook: "https://www.facebook.com/tech.iitgn/",
-	youtube: "https://www.youtube.com/channel/UCW7mfvpgbit4JZmMXOJihrA",
-	linkedin: "https://www.linkedin.com/school/tech-council-iitgn/",
-	torque_fb: "https://www.facebook.com/iitgntechnicalmagazine/",
-	instagram: "https://www.instagram.com/tech_iitgn/",
-	torque_email: "torque@iitgn.ac.in",
-	email: "technical.secretary@iitgn.ac.in",
+	facebook: "https://www.facebook.com/igniteiitgn/",
+	// youtube: "https://www.youtube.com/channel/UCW7mfvpgbit4JZmMXOJihrA",
+	instagram: "https://www.instagram.com/ignite_iitgn/",
+	email: "ignite@iitgn.ac.in",
 };
 
 const FOOTER_LINKS = {

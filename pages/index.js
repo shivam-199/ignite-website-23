@@ -69,9 +69,9 @@ const Home = () => {
 					style={{ height: height }}
 					className={styles.mainpage}
 				>
-					<h3 className={styles.subtitle}>About IGNITE 8.0</h3>
+					<h3 className={styles.subtitle}>About G20-IGNITE</h3>
 					<p className={styles.desc}>
-						Ignite 8.0 is a Science and Technology Fair that aims to
+						G20-Ignite is a Science and Technology Fair that aims to
 						support and encourage critical thinking,
 						problem-solving, and curiosity among school students
 						from the disciplines of Science, Technology,
