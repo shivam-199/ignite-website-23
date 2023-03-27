@@ -11,7 +11,7 @@ const Header = () => {
 	const router = useRouter();
 	const [isOpen, setIsOpen] = React.useState(false);
 
-	console.log(router);
+	// console.log(router);
 
 	return (
 		<header className={styles.navbar} id="myTopnav">
@@ -49,7 +49,7 @@ const Header = () => {
 									<li
 										key={id}
 										className={`${
-											router.pathname === route.path &&
+											router.asPath === route.path &&
 											styles.active
 										} ${styles.headerItem}`}
 									>

@@ -6,8 +6,28 @@ import IGNITE_EVENTS from "../src/Constants/ignite_events";
 const Home = () => {
 	const [height, setHeight] = useState(null);
 
+	let options = {
+		rootMargin: "0px",
+		threshold: 0.5,
+	};
+
+	let callback = (entries, observer) => {
+		entries.forEach((entry) => {
+			if (entry.isIntersecting) {
+				window.location.replace(`/#${entry.target.id}`);
+			}
+		});
+	};
+
 	useEffect(() => {
 		setHeight(window.innerHeight);
+
+		const observer = new IntersectionObserver(callback, options);
+		let targetIds = ["#Home", "#About", "#Events"];
+		targetIds.forEach((id) => {
+			let target = document.querySelector(id);
+			observer.observe(target);
+		});
 	});
 
 	return (
@@ -88,8 +108,10 @@ const Home = () => {
 						inspiration, discovery, and innovation.
 					</p>
 				</div>
-				<div id="Events" className={styles.event_main}>
-					<h2 className={styles.title}>Events</h2>
+				<div className={styles.event_main}>
+					<h2 id="Events" className={styles.title}>
+						Events
+					</h2>
 					<div className={styles.clubsOuter}>
 						{IGNITE_EVENTS.map((event) => {
 							return (
