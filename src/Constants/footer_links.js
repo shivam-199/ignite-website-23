@@ -3,19 +3,19 @@ const QUICK = [
 		id: 1,
 		name: "IITGN Website",
 		path: "https://iitgn.ac.in/",
-		icon: "/assets/icons/icons8-cpu-64.png",
+		icon: "/ignite/assets/icons/icons8-cpu-64.png",
 	},
 	{
 		id: 2,
 		name: "Tech Council",
 		path: "https://students.iitgn.ac.in/tech-council/",
-		icon: "/assets/icons/icons8-cpu-64.png",
+		icon: "/ignite/assets/icons/icons8-cpu-64.png",
 	},
 	{
 		id: 3,
 		name: "Academics",
 		path: "https://iitgn.ac.in/academics/",
-		icon: "/assets/icons/icons8-cpu-64.png",
+		icon: "/ignite/assets/icons/icons8-cpu-64.png",
 	},
 ];
 

@@ -9,7 +9,7 @@
 }
 
 .ignite_home {
-    background-image: url("/assets/icons/ignite-bg.png");
+    background-image: url("/ignite/assets/icons/ignite-bg.png");
     width: 100%;
     height: 100%;
     display: flex;

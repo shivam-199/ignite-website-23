@@ -46,13 +46,13 @@ export default function Footer() {
 				<div className="flex flex-row items-center">
 					<a href={FOOTER_LINKS.social.facebook} target="_blank">
 						<img
-							src="/assets/icons/icons8-facebook-48.png"
+							src="/ignite/assets/icons/icons8-facebook-48.png"
 							className={styles.social_link}
 						/>
 					</a>
 					<a href={FOOTER_LINKS.social.instagram} target="_blank">
 						<img
-							src="/assets/icons/icons8-instagram-48.png"
+							src="/ignite/assets/icons/icons8-instagram-48.png"
 							className={styles.social_link}
 						/>
 					</a>
@@ -61,7 +61,7 @@ export default function Footer() {
 						target="_blank"
 					>
 						<img
-							src="/assets/icons/icons8-envelope-48.png"
+							src="/ignite/assets/icons/icons8-envelope-48.png"
 							className={styles.social_link}
 						/>
 					</a>

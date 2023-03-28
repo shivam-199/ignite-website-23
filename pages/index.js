@@ -51,7 +51,7 @@ const Home = () => {
 					<div className={styles.ignite_logo_div}>
 						<img
 							className={styles.ignite_logo}
-							src="/assets/icons/ignite-logo.png"
+							src="/ignite/assets/icons/ignite-logo.png"
 						/>
 						<h2 className={styles.ignite_text}>G20-IGNITE</h2>
 						<h2 className={styles.ignite_sub_text}>
@@ -62,15 +62,15 @@ const Home = () => {
 						<div className={styles.logos_div}>
 							<img
 								className={styles.main_logos}
-								src="/assets/icons/g20-logo.png"
+								src="/ignite/assets/icons/g20-logo.png"
 							/>
 							<img
 								className={styles.main_logos}
-								src="/assets/icons/iitgn-logo-white.png"
+								src="/ignite/assets/icons/iitgn-logo-white.png"
 							/>
 							<img
 								className={styles.main_logos}
-								src="/assets/icons/tech-council-logo.png"
+								src="/ignite/assets/icons/tech-council-logo.png"
 							/>
 						</div>
 						<h2 className={styles.ignite_iitgn_text}>

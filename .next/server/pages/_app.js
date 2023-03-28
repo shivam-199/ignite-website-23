@@ -86,9 +86,9 @@ var image_default = /*#__PURE__*/__webpack_require__.n(next_image);
 var Header_module = __webpack_require__(2508);
 var Header_module_default = /*#__PURE__*/__webpack_require__.n(Header_module);
 ;// CONCATENATED MODULE: ./public/assets/icons/menu-24.png
-/* harmony default export */ const menu_24 = ({"src":"/_next/static/media/menu-24.cff15663.png","height":24,"width":24,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAQAAABuBnYAAAAAO0lEQVR42mPAAP9U/+X+S/uXAYRpQJYqwz/Zf6H/AiEQyJJl+Cf3L/JfyL9QIAwBsuQwBDC0YBiKYSsAheA98bOei3EAAAAASUVORK5CYII="});
+/* harmony default export */ const menu_24 = ({"src":"/ignite/_next/static/media/menu-24.cff15663.png","height":24,"width":24,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAQAAABuBnYAAAAAO0lEQVR42mPAAP9U/+X+S/uXAYRpQJYqwz/Zf6H/AiEQyJJl+Cf3L/JfyL9QIAwBsuQwBDC0YBiKYSsAheA98bOei3EAAAAASUVORK5CYII="});
 ;// CONCATENATED MODULE: ./public/assets/icons/multiply-30.png
-/* harmony default export */ const multiply_30 = ({"src":"/_next/static/media/multiply-30.c9e221f0.png","height":30,"width":30,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAQAAABuBnYAAAAASElEQVR42mWNQQoAIQwDi/sZ9w/2qP9/jd6igwUPSiAko21NSYY+ZChh+uW7OMkiTDVV3AXgK6VrAGkvwMoZKbEjE+IhA+6zC1aXTCkxJIqEAAAAAElFTkSuQmCC"});
+/* harmony default export */ const multiply_30 = ({"src":"/ignite/_next/static/media/multiply-30.c9e221f0.png","height":30,"width":30,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAQAAABuBnYAAAAASElEQVR42mWNQQoAIQwDi/sZ9w/2qP9/jd6igwUPSiAko21NSYY+ZChh+uW7OMkiTDVV3AXgK6VrAGkvwMoZKbEjE+IhA+6zC1aXTCkxJIqEAAAAAElFTkSuQmCC"});
 ;// CONCATENATED MODULE: ./src/Constants/routes.js
 const ROUTES = [
     {
@@ -132,19 +132,19 @@ const Header = ()=>{
                         className: (Header_module_default()).headerLink,
                         children: [
                             /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                                src: "assets/icons/g20-logo.png",
+                                src: "/igniteassets/icons/g20-logo.png",
                                 height: "20%",
                                 width: "20%",
                                 className: (Header_module_default()).iitgn_logo_header
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                                src: "assets/icons/iitgn-logo-white.png",
+                                src: "/igniteassets/icons/iitgn-logo-white.png",
                                 height: "20%",
                                 width: "20%",
                                 className: (Header_module_default()).iitgn_logo_header
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                                src: "assets/icons/logo_lal_minar.png",
+                                src: "/igniteassets/icons/logo_lal_minar.png",
                                 height: "20%",
                                 width: "20%",
                                 className: (Header_module_default()).header_logo
@@ -231,19 +231,19 @@ const QUICK = [
         id: 1,
         name: "IITGN Website",
         path: "https://iitgn.ac.in/",
-        icon: "/assets/icons/icons8-cpu-64.png"
+        icon: "/ignite/assets/icons/icons8-cpu-64.png"
     },
     {
         id: 2,
         name: "Tech Council",
         path: "https://students.iitgn.ac.in/tech-council/",
-        icon: "/assets/icons/icons8-cpu-64.png"
+        icon: "/ignite/assets/icons/icons8-cpu-64.png"
     },
     {
         id: 3,
         name: "Academics",
         path: "https://iitgn.ac.in/academics/",
-        icon: "/assets/icons/icons8-cpu-64.png"
+        icon: "/ignite/assets/icons/icons8-cpu-64.png"
     }, 
 ];
 const SOCIAL = {
@@ -332,7 +332,7 @@ function Footer() {
                                 href: footer_links.social.facebook,
                                 target: "_blank",
                                 children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                                    src: "/assets/icons/icons8-facebook-48.png",
+                                    src: "/ignite/assets/icons/icons8-facebook-48.png",
                                     className: (Footer_module_default()).social_link
                                 })
                             }),
@@ -340,7 +340,7 @@ function Footer() {
                                 href: footer_links.social.instagram,
                                 target: "_blank",
                                 children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                                    src: "/assets/icons/icons8-instagram-48.png",
+                                    src: "/ignite/assets/icons/icons8-instagram-48.png",
                                     className: (Footer_module_default()).social_link
                                 })
                             }),
@@ -348,7 +348,7 @@ function Footer() {
                                 href: `mailto:${footer_links.social.email}`,
                                 target: "_blank",
                                 children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                                    src: "/assets/icons/icons8-envelope-48.png",
+                                    src: "/ignite/assets/icons/icons8-envelope-48.png",
                                     className: (Footer_module_default()).social_link
                                 })
                             })

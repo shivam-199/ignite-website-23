@@ -20,6 +20,7 @@ const nextConfig = {
 		net: false,
 		child_process: false,
 	},
+	basePath: "/ignite",
 };
 
 module.exports = nextConfig;
