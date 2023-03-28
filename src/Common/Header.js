@@ -19,19 +19,19 @@ const Header = () => {
 				<Link href="/">
 					<a className={styles.headerLink}>
 						<img
-							src={"/igniteassets/icons/g20-logo.png"}
+							src={"/ignite/assets/icons/g20-logo.png"}
 							height="20%"
 							width="20%"
 							className={styles.iitgn_logo_header}
 						/>
 						<img
-							src={"/igniteassets/icons/iitgn-logo-white.png"}
+							src={"/ignite/assets/icons/iitgn-logo-white.png"}
 							height="20%"
 							width="20%"
 							className={styles.iitgn_logo_header}
 						/>
 						<img
-							src={"/igniteassets/icons/logo_lal_minar.png"}
+							src={"/ignite/assets/icons/logo_lal_minar.png"}
 							height="20%"
 							width="20%"
 							className={styles.header_logo}
