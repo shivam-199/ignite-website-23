@@ -6,28 +6,28 @@ import IGNITE_EVENTS from "../src/Constants/ignite_events";
 const Home = () => {
 	const [height, setHeight] = useState(null);
 
-	let options = {
-		rootMargin: "0px",
-		threshold: 0.5,
-	};
+	// let options = {
+	// 	rootMargin: "0px",
+	// 	threshold: 0.5,
+	// };
 
-	let callback = (entries, observer) => {
-		entries.forEach((entry) => {
-			if (entry.isIntersecting) {
-				window.location.replace(`/#${entry.target.id}`);
-			}
-		});
-	};
+	// let callback = (entries, observer) => {
+	// 	entries.forEach((entry) => {
+	// 		if (entry.isIntersecting) {
+	// 			window.location.replace(`/#${entry.target.id}`);
+	// 		}
+	// 	});
+	// };
 
 	useEffect(() => {
 		setHeight(window.innerHeight);
 
-		const observer = new IntersectionObserver(callback, options);
-		let targetIds = ["#Home", "#About", "#Events"];
-		targetIds.forEach((id) => {
-			let target = document.querySelector(id);
-			observer.observe(target);
-		});
+		// const observer = new IntersectionObserver(callback, options);
+		// let targetIds = ["#Home", "#About", "#Events"];
+		// targetIds.forEach((id) => {
+		// 	let target = document.querySelector(id);
+		// 	observer.observe(target);
+		// });
 	});
 
 	return (

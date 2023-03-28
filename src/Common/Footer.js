@@ -6,11 +6,9 @@ export default function Footer() {
 		<div className={styles.root}>
 			<div className={styles.tech_council_outer}>
 				<div className={styles.name_text}>
-					<h1 className={styles.ignite_text}>
-						G20- <br /> IGNITE
-					</h1>
+					<h1 className={styles.ignite_text}>G20- IGNITE</h1>
 					<h1 className={styles.tech_council_text}>
-						Technical Council <br /> IIT Gandhinagar
+						IIT Gandhinagar
 					</h1>
 				</div>
 				<h3 className={styles.tech_council_quote}>
