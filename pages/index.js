@@ -38,7 +38,7 @@ const Home = () => {
 				</title>
 				<meta
 					name="description"
-					content="Page for Ignite tech festival of Indian Institute of Technology Gandhinagar"
+					content="G20-Ignite, a Sci-tech fest at the Indian Institute of Technology Gandhinagar"
 				/>
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
@@ -78,10 +78,15 @@ const Home = () => {
 						</h2>
 						<hr className={styles.ignite_hr} />
 						<h2 className={styles.ignite_dates}>APRIL 15, 2023</h2>
-						<button className={styles.register_btn}>
-							{" "}
-							Register Now!{" "}
-						</button>
+						<a
+							href="https://docs.google.com/forms/d/e/1FAIpQLSenzSO93hAkZmCTq5W28jIqK_Bufg6xbV6uswdrdnhzTNLboQ/viewform"
+							target="_blank"
+							rel="noreferrer"
+						>
+							<button className={styles.register_btn}>
+								Register Now!
+							</button>
+						</a>
 					</div>
 				</div>
 				<div
