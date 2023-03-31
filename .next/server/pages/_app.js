@@ -55,7 +55,20 @@ module.exports = {
 
 /***/ }),
 
-/***/ 4682:
+/***/ 6602:
+/***/ ((module) => {
+
+// Exports
+module.exports = {
+	"root": "Popup_root__DHrz_",
+	"heading": "Popup_heading__KbAKl",
+	"cross": "Popup_cross___qhCf"
+};
+
+
+/***/ }),
+
+/***/ 7636:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -119,7 +132,6 @@ const ROUTES = [
 const Header = ()=>{
     const router = (0,router_namespaceObject.useRouter)();
     const [isOpen, setIsOpen] = external_react_default().useState(false);
-    // console.log(router);
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("header", {
         className: (Header_module_default()).navbar,
         id: "myTopnav",
@@ -360,7 +372,38 @@ function Footer() {
     });
 };
 
+// EXTERNAL MODULE: ./styles/Common/Popup.module.css
+var Popup_module = __webpack_require__(6602);
+var Popup_module_default = /*#__PURE__*/__webpack_require__.n(Popup_module);
+;// CONCATENATED MODULE: ./src/Common/Popup.js
+
+
+
+
+
+const Popup = ()=>{
+    const [isOpen, setIsOpen] = external_react_default().useState(true);
+    return /*#__PURE__*/ jsx_runtime_.jsx("div", {
+        className: (Popup_module_default()).root,
+        children: isOpen && /*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
+            children: [
+                /*#__PURE__*/ jsx_runtime_.jsx("h2", {
+                    className: (Popup_module_default()).heading,
+                    children: "Avail discount on group registration for 50+ students."
+                }),
+                /*#__PURE__*/ jsx_runtime_.jsx("img", {
+                    src: "/ignite/assets/icons/multiply-30.png",
+                    className: (Popup_module_default()).cross,
+                    onClick: ()=>setIsOpen(false)
+                })
+            ]
+        })
+    });
+};
+/* harmony default export */ const Common_Popup = (Popup);
+
 ;// CONCATENATED MODULE: ./src/Common/Layout.js
+
 
 
 
@@ -370,6 +413,7 @@ const Layout = ({ children  })=>{
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
         children: [
             /*#__PURE__*/ jsx_runtime_.jsx(Common_Header, {}),
+            /*#__PURE__*/ jsx_runtime_.jsx(Common_Popup, {}),
             /*#__PURE__*/ jsx_runtime_.jsx("main", {
                 children: children
             }),
@@ -640,7 +684,7 @@ module.exports = require("react/jsx-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [952,61], () => (__webpack_exec__(4682)));
+var __webpack_exports__ = __webpack_require__.X(0, [952,61], () => (__webpack_exec__(7636)));
 module.exports = __webpack_exports__;
 
 })();

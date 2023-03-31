@@ -11,8 +11,6 @@ const Header = () => {
 	const router = useRouter();
 	const [isOpen, setIsOpen] = React.useState(false);
 
-	// console.log(router);
-
 	return (
 		<header className={styles.navbar} id="myTopnav">
 			<h1 className={styles.title}>
