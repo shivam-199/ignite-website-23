@@ -1,6 +1,5 @@
 import Header from "./Header";
 import Footer from "./Footer";
-import Popup from "./Popup";
 import { useRouter } from "next/router";
 
 const Layout = ({ children }) => {
@@ -8,7 +7,6 @@ const Layout = ({ children }) => {
 	return (
 		<>
 			<Header />
-			<Popup />
 			<main>{children}</main>
 			{footerVisibility && <Footer />}
 		</>

@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { useState, useEffect } from "react";
 import styles from "../styles/Home.module.css";
+import Popup from "../src/Common/Popup";
 import IGNITE_EVENTS from "../src/Constants/ignite_events";
 
 const Home = () => {
@@ -89,6 +90,7 @@ const Home = () => {
 						</a>
 					</div>
 				</div>
+				<Popup />
 				<div
 					id="About"
 					style={{ height: height }}

@@ -40,7 +40,7 @@ export default function Footer() {
 				<h1 className={styles.section_title}>CONTACT US</h1>
 				<p className={styles.contact_text}>
 					Indian Institute of Technology Gandhinagar Palaj,
-					Gandhinagar, Gujarat, India - 382355
+					Gandhinagar, Gujarat, India - 382055
 				</p>
 
 				<div className="flex flex-row items-center">

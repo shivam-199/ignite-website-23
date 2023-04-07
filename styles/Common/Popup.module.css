@@ -1,5 +1,6 @@
 .root {
     color: var(--white);
+    position: relative;
     text-align: center;
     background-color: var(--seagreen);
     display: flex;
@@ -7,10 +8,37 @@
     justify-content: space-around;
     align-items: center;
     padding: 0px 10px;
+    height: 25px;
+    width: 100%;
   }
 
   .heading{
     font-size: 1.1em;
+    letter-spacing: initial;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    overflow: hidden;
+    width: 70%;
+    text-overflow: clip;
+  }
+
+  .heading span {
+    display: block;
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    transform: translateX(100%);
+    animation: move 15s linear infinite;
+  }
+
+  @keyframes move {
+    to {
+      transform: translateX(-100%);
+    }
   }
   
   .cross {
@@ -23,7 +51,9 @@
   
   
   @media screen and (max-width: 992px) {
-   
+    .heading {
+      width: 100%;
+    }
   }
   
   @media screen and (max-width: 768px) {
@@ -36,11 +66,11 @@
       justify-content: space-around;
       align-items: center;
     }
-    .cross {
+    /* .cross {
       position: relative;
       width: 20px!important;
       height: 20px!important;
-    }
+    } */
     .heading{
       font-size: 0.9em;
     }

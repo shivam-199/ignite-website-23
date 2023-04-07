@@ -44,8 +44,8 @@ const EVENTS = [
 
 	{
 		id: 4,
-		name: "TL Event",
-		desc: "Do you love to fiddle with objects when lost in thought? Do you constantly take apart and put together household items? Congratulations! You are a Tinkerer! IITGN welcomes you to engage with fellow campus tinkerers and participate in the special exhibition curated by them for you.",
+		name: "Tinker With Us",
+			desc: "Do you love to fiddle with objects when lost in thought? Do you constantly take apart and put together household items? Congratulations! You are a Tinkerer! The Tinkerers' Lab welcomes you to engage with fellow campus tinkerers and participate in the special exhibition curated for you.",
 		banner: "/ignite/assets/banner/IGNITE_event_posters16.jpg",
 		backgroundColor: "#000000",
 		date: "April 3, 2023",
@@ -66,7 +66,7 @@ const EVENTS = [
 
 	{
 		id: 6,
-		name: "CCL Exhibit",
+		name: "Record Breaking Exhibit",
 		desc: "Want to join the team that aims to challenge the Guinness World Record? If yes, join us in creating an exhibit using the most push pins to honour and celebrate an acclaimed scientist. Come and be a part of record-breaking by just pushing a pin!",
 		banner: "/ignite/assets/banner/IGNITE_event_posters15.jpg",
 		backgroundColor: "#000000",
@@ -99,7 +99,7 @@ const EVENTS = [
 
 	{
 		id: 9,
-		name: "CCL Workshop",
+		name: "Centre for Creative Learning Workshop",
 		desc: "Unleash your scientific curiosity and inherent creativity in a workshop with IITGN’s Centre for Creative Learning! Traverse the different concepts of science and maths using everyday objects and see how everyday objects transform into scientific marvels.",
 		banner: "/ignite/assets/banner/IGNITE_event_posters13.jpg",
 		backgroundColor: "#000000",
@@ -111,7 +111,7 @@ const EVENTS = [
 	{
 		id: 10,
 		name: "Lal Minar Light and Sound Show",
-		desc: "IITGN’s famous Lal Minar will be decked up with state-of-the-art Music LEDs creating a mesmerising display of music and lights. The exhibit will be a testament to how technology and creativity seamlessly blend to produce stunning results. Experience a multi-sensory extravaganza that will blow you away!",
+		desc: "IITGN's famous Lal Minar will be decked up with state-of-the-art Music LEDs creating a mesmerising display of music and lights. The exhibit will be a testament to how technology and creativity seamlessly blend to produce stunning results. Experience a multi-sensory extravaganza that will blow you away!",
 		banner: "/ignite/assets/banner/IGNITE_event_posters14.jpg",
 		backgroundColor: "#000000",
 		date: "April 3, 2023",
@@ -121,7 +121,7 @@ const EVENTS = [
 
 	{
 		id: 11,
-		name: "Space Scounts",
+		name: "Space Scouts",
 		desc: "For astronomy lovers and future astronauts, we have a treat in store for you! Explore the universe beyond our blue planet through our special telescopes and be entranced by sunspots, nebulae, distant star clusters, and more. Get ready to be enthralled!",
 		banner: "/ignite/assets/banner/IGNITE_event_posters9.jpg",
 		backgroundColor: "#000000",
@@ -132,7 +132,7 @@ const EVENTS = [
 
 	{
 		id: 12,
-		name: "SCI FLIX",
+		name: "SCI-FLIX",
 		desc: "Too hot to roam around during the Sci-Tech Fair in the afternoon? Don’t worry! Beat the heat in our makeshift “movie hall” with screenings of awesome SciTech-themed entertainment. So, come and find out what's in store for you...Bollywood, Hollywood, anime, or your favourite cartoons!",
 		banner: "/ignite/assets/banner/IGNITE_event_posters10.jpg",
 		backgroundColor: "#000000",
@@ -157,6 +157,17 @@ const EVENTS = [
 		name: "Resist-a-Quake",
 		desc: "Learn the basics of structural engineering from IITGN experts. Apply your knowledge by creating 3D structures with popsicle sticks and win prizes if can withstand an earthquake!",
 		banner: "/ignite/assets/banner/IGNITE_event_posters11.jpg",
+		backgroundColor: "#000000",
+		date: "April 3, 2023",
+		time: "08:00 Hrs",
+		venue: "Central Arcade",
+	},
+
+	{
+		id: 15,
+		name: "SciToons",
+		desc: "A comic making workshop.",
+		banner: "/ignite/assets/banner/IGNITE_event_posters17.jpg",
 		backgroundColor: "#000000",
 		date: "April 3, 2023",
 		time: "08:00 Hrs",
