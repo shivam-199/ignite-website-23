@@ -11,7 +11,8 @@ const Popup = () => {
 			{isOpen && (
 				<>
 					<h2 className={styles.heading}>
-						<span>Avail discount on group registration for 50+ students. | Registration closes on 10th April!</span>
+						{/* <span>Avail discount on group registration for 50+ students.</span> */}
+						<span>Avail discounts on group registration: 15% for 30+ students, 20% for 50+ students, 30% for 80+ students</span>
 					</h2>
 					<img
 						src="/ignite/assets/icons/multiply-30.png"

@@ -20,9 +20,11 @@ const QUICK = [
 ];
 
 const SOCIAL = {
-	facebook: "https://www.facebook.com/igniteiitgn/",
+	facebook: "https://www.facebook.com/photo/?fbid=541962941380988&set=a.503637305213552",
+	instagram: "https://www.instagram.com/p/CqcX6tRPY_p/",
+	// facebook: "https://www.facebook.com/igniteiitgn/",
 	// youtube: "https://www.youtube.com/channel/UCW7mfvpgbit4JZmMXOJihrA",
-	instagram: "https://www.instagram.com/ignite_iitgn/",
+	// instagram: "https://www.instagram.com/ignite_iitgn/",
 	email: "ignite@iitgn.ac.in",
 };
 

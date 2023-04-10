@@ -53,16 +53,16 @@ const EVENTS = [
 		venue: "Central Arcade",
 	},
 
-	{
-		id: 5,
-		name: "Silent DJ",
-		desc: "Step into the world of enthralling music and rhythm without making a peep! Groove to your favourite beats and immerse yourself in the world of music and dance through headphones. Have the time of your life in the Silent DJ that has been set up for you all!",
-		banner: "/ignite/assets/banner/IGNITE_event_posters.jpg",
-		backgroundColor: "#000000",
-		date: "April 3, 2023",
-		time: "08:00 Hrs",
-		venue: "Central Arcade",
-	},
+	// {
+	// 	id: 5,
+	// 	name: "Silent DJ",
+	// 	desc: "Step into the world of enthralling music and rhythm without making a peep! Groove to your favourite beats and immerse yourself in the world of music and dance through headphones. Have the time of your life in the Silent DJ that has been set up for you all!",
+	// 	banner: "/ignite/assets/banner/IGNITE_event_posters.jpg",
+	// 	backgroundColor: "#000000",
+	// 	date: "April 3, 2023",
+	// 	time: "08:00 Hrs",
+	// 	venue: "Central Arcade",
+	// },
 
 	{
 		id: 6,
@@ -166,7 +166,7 @@ const EVENTS = [
 	{
 		id: 15,
 		name: "SciToons",
-		desc: "A comic making workshop.",
+		desc: "Want to be part of making science fun through comics? Participate in our workshop to find out how art, science, and technology intersect. The best comic wins the prize. Open for students, teachers, and even parents!",
 		banner: "/ignite/assets/banner/IGNITE_event_posters17.jpg",
 		backgroundColor: "#000000",
 		date: "April 3, 2023",
