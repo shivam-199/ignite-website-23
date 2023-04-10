@@ -88,7 +88,7 @@ const Home = () => {
           </div>
         </div>
         <Popup />
-        <div id="About" style={{ height: height }} className={styles.mainpage}>
+        <div id="About" className={styles.mainpage}>
           <h3 className={styles.subtitle}>About G20-IGNITE</h3>
           <p className={styles.desc}>
             G20-Ignite is a Science and Technology Fair that aims to support and
@@ -131,7 +131,7 @@ const Home = () => {
             })}
           </div>
         </div>
-        <div id="About" className={styles.mainpage}>
+        <div id="About" className={styles.mainpage2}>
           <h3 className={styles.subtitle}>
             Covid Safety Protocols to be Followed
           </h3>
