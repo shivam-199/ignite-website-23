@@ -83,7 +83,7 @@ const Home = () => {
               <button className={styles.register_btn}>Register Now!</button>
             </a>
             <p className="mt-3 font-[oxanium] text-white">
-              Deadline: April 12, 2023
+              Deadline: April 14, 2023
             </p>
           </div>
         </div>
@@ -131,14 +131,40 @@ const Home = () => {
             })}
           </div>
         </div>
-        <div id="About" className={styles.mainpage2}>
+        <div
+          id="Partners"
+          className="flex w-full flex-col justify-center bg-black py-5"
+        >
+          <h3 className={styles.subtitle}>Our Partners</h3>
+          <div className="mx-auto mb-12 grid w-4/5 grid-cols-4 gap-8">
+            <img
+              src="/ignite/assets/logos/RK_Logo.jpg"
+              alt="RK"
+              className="col-span-4 mx-auto max-h-20 md:max-h-24 lg:col-span-2 lg:col-start-2 lg:max-h-36"
+            />
+            <img
+              src="/ignite/assets/logos/Firetech_Logo.jpg"
+              alt="Firetech"
+              className="col-span-4 mx-auto max-h-20 md:max-h-24 lg:col-span-2 lg:max-h-36"
+            />
+            <img
+              src="/ignite/assets/logos/Aaag_Logo.jpg"
+              alt="Aaag"
+              className="col-span-4 mx-auto max-h-20 md:max-h-24 lg:col-span-2 lg:max-h-36"
+            />
+          </div>
+        </div>
+        <div
+          id="Covid"
+          className="mb-8 flex w-full flex-col justify-center py-5"
+        >
           <h3 className={styles.subtitle}>
             Covid Safety Protocols to be Followed
           </h3>
           <img
             src="/ignite/assets/banner/covid-protocols.jpg"
             alt="Follow Appropriate Covid Protocols"
-            className="mx-auto max-w-4xl w-5/6"
+            className="mx-auto w-5/6 max-w-4xl"
           />
         </div>
         <hr />

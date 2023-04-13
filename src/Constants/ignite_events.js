@@ -53,16 +53,16 @@ const EVENTS = [
 		venue: "Central Arcade",
 	},
 
-	// {
-	// 	id: 5,
-	// 	name: "Silent DJ",
-	// 	desc: "Step into the world of enthralling music and rhythm without making a peep! Groove to your favourite beats and immerse yourself in the world of music and dance through headphones. Have the time of your life in the Silent DJ that has been set up for you all!",
-	// 	banner: "/ignite/assets/banner/IGNITE_event_posters.jpg",
-	// 	backgroundColor: "#000000",
-	// 	date: "April 3, 2023",
-	// 	time: "08:00 Hrs",
-	// 	venue: "Central Arcade",
-	// },
+	{
+		id: 5,
+		name: "Silent DJ",
+		desc: "Step into the world of enthralling music and rhythm without making a peep! Groove to your favourite beats and immerse yourself in the world of music and dance through headphones. Have the time of your life in the Silent DJ that has been set up for you all!",
+		banner: "/ignite/assets/banner/IGNITE_event_posters.jpg",
+		backgroundColor: "#000000",
+		date: "April 3, 2023",
+		time: "08:00 Hrs",
+		venue: "Central Arcade",
+	},
 
 	{
 		id: 6,
@@ -108,16 +108,16 @@ const EVENTS = [
 		venue: "Central Arcade",
 	},
 
-	{
-		id: 10,
-		name: "Lal Minar Light and Sound Show",
-		desc: "IITGN's famous Lal Minar will be decked up with state-of-the-art Music LEDs creating a mesmerising display of music and lights. The exhibit will be a testament to how technology and creativity seamlessly blend to produce stunning results. Experience a multi-sensory extravaganza that will blow you away!",
-		banner: "/ignite/assets/banner/IGNITE_event_posters14.jpg",
-		backgroundColor: "#000000",
-		date: "April 3, 2023",
-		time: "08:00 Hrs",
-		venue: "Central Arcade",
-	},
+	// {
+	// 	id: 10,
+	// 	name: "Lal Minar Light and Sound Show",
+	// 	desc: "IITGN's famous Lal Minar will be decked up with state-of-the-art Music LEDs creating a mesmerising display of music and lights. The exhibit will be a testament to how technology and creativity seamlessly blend to produce stunning results. Experience a multi-sensory extravaganza that will blow you away!",
+	// 	banner: "/ignite/assets/banner/IGNITE_event_posters14.jpg",
+	// 	backgroundColor: "#000000",
+	// 	date: "April 3, 2023",
+	// 	time: "08:00 Hrs",
+	// 	venue: "Central Arcade",
+	// },
 
 	{
 		id: 11,
