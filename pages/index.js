@@ -136,21 +136,21 @@ const Home = () => {
           className="flex w-full flex-col justify-center bg-black py-5"
         >
           <h3 className={styles.subtitle}>Our Partners</h3>
-          <div className="mx-auto mb-12 grid w-4/5 grid-cols-4 gap-8">
+          <div className="mx-auto mb-12 grid grid-cols-9 items-center gap-6">
             <img
-              src="/ignite/assets/logos/RK_Logo.jpg"
-              alt="RK"
-              className="col-span-4 mx-auto max-h-20 md:max-h-24 lg:col-span-2 lg:col-start-2 lg:max-h-36"
-            />
-            <img
-              src="/ignite/assets/logos/Firetech_Logo.jpg"
+              src="/ignite/assets/logos/Firetech_Logo.png"
               alt="Firetech"
-              className="col-span-4 mx-auto max-h-20 md:max-h-24 lg:col-span-2 lg:max-h-36"
+              className="col-span-9 mx-auto max-h-16 sm:col-span-4 sm:max-h-24"
             />
             <img
-              src="/ignite/assets/logos/Aaag_Logo.jpg"
+              src="/ignite/assets/logos/RK_Logo.png"
+              alt="RK"
+              className="col-span-9 mx-auto max-h-16 sm:col-span-1 sm:max-h-24"
+            />
+            <img
+              src="/ignite/assets/logos/Aaag_Logo.png"
               alt="Aaag"
-              className="col-span-4 mx-auto max-h-20 md:max-h-24 lg:col-span-2 lg:max-h-36"
+              className="col-span-9 mx-auto max-h-20 sm:col-span-4 sm:max-h-32"
             />
           </div>
         </div>
