@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Image from "next/image";
 import { useState, useEffect } from "react";
 import styles from "../styles/Home.module.css";
 import Popup from "../src/Common/Popup";
@@ -29,7 +30,7 @@ const Home = () => {
     // 	let target = document.querySelector(id);
     // 	observer.observe(target);
     // });
-  });
+  }, []);
 
   return (
     <>
@@ -48,26 +49,30 @@ const Home = () => {
           className={styles.ignite_home}
         >
           <div className={styles.ignite_logo_div}>
-            <img
-              className={styles.ignite_logo}
+            <Image
               src="/ignite/assets/icons/ignite-logo.png"
+              alt="Ignite"
+              className={styles.ignite_logo}
             />
             <h2 className={styles.ignite_text}>G20-IGNITE</h2>
             <h2 className={styles.ignite_sub_text}>A SCI-TECH FAIR</h2>
           </div>
           <div className={styles.ignite_desc}>
             <div className={styles.logos_div}>
-              <img
-                className={styles.main_logos}
+              <Image
                 src="/ignite/assets/icons/g20-logo.png"
-              />
-              <img
+                alt="G20"
                 className={styles.main_logos}
+              />
+              <Image
                 src="/ignite/assets/icons/iitgn-logo-white.png"
-              />
-              <img
+                alt="IITGN"
                 className={styles.main_logos}
+              />
+              <Image
                 src="/ignite/assets/icons/tech-council-logo.png"
+                alt="Tech Council"
+                className={styles.main_logos}
               />
             </div>
             <h2 className={styles.ignite_iitgn_text}>
@@ -120,7 +125,11 @@ const Home = () => {
                   }}
                 >
                   <div className={styles.bannerOuter}>
-                    <img className={styles.clubBanner} src={event.banner} />
+                    <Image
+                      src={event.banner}
+                      alt=""
+                      className={styles.clubBanner}
+                    />
                   </div>
                   <div className={styles.clubInfo}>
                     <h2 className={styles.clubName}>{event.name}</h2>
@@ -137,17 +146,17 @@ const Home = () => {
         >
           <h3 className={styles.subtitle}>Our Partners</h3>
           <div className="mx-auto mb-12 grid grid-cols-9 items-center gap-6">
-            <img
+            <Image
               src="/ignite/assets/logos/Firetech_Logo.png"
               alt="Firetech"
               className="col-span-9 mx-auto max-h-16 sm:col-span-4 sm:max-h-24"
             />
-            <img
+            <Image
               src="/ignite/assets/logos/RK_Logo.png"
               alt="RK"
               className="col-span-9 mx-auto max-h-16 sm:col-span-1 sm:max-h-24"
             />
-            <img
+            <Image
               src="/ignite/assets/logos/Aaag_Logo.png"
               alt="Aaag"
               className="col-span-9 mx-auto max-h-20 sm:col-span-4 sm:max-h-32"
@@ -161,7 +170,7 @@ const Home = () => {
           <h3 className={styles.subtitle}>
             Covid Safety Protocols to be Followed
           </h3>
-          <img
+          <Image
             src="/ignite/assets/banner/covid-protocols.jpg"
             alt="Follow Appropriate Covid Protocols"
             className="mx-auto w-5/6 max-w-4xl"

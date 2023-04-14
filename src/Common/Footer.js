@@ -1,3 +1,4 @@
+import Image from "next/image";
 import styles from "../../styles/Common/Footer.module.css";
 import FOOTER_LINKS from "../Constants/footer_links";
 
@@ -25,7 +26,7 @@ export default function Footer() {
 							key={link.id}
 							href={link.path}
 						>
-							<img
+							<Image
 								src={link.icon}
 								width="15%"
 								height="15%"
@@ -52,13 +53,13 @@ export default function Footer() {
 
 				<div className="flex flex-row items-center gap-3">
 					<a href={FOOTER_LINKS.social.facebook} target="_blank">
-						<img
+						<Image
 							src="/ignite/assets/icons/icons8-facebook-48.png"
 							className={styles.social_link}
 						/>
 					</a>
 					<a href={FOOTER_LINKS.social.instagram} target="_blank">
-						<img
+						<Image
 							src="/ignite/assets/icons/icons8-instagram-48.png"
 							className={styles.social_link}
 						/>
@@ -67,7 +68,7 @@ export default function Footer() {
 						href={`mailto:${FOOTER_LINKS.social.email}`}
 						target="_blank"
 					>
-						<img
+						<Image
 							src="/ignite/assets/icons/icons8-envelope-48.png"
 							className={styles.social_link}
 						/>
@@ -82,7 +83,7 @@ export default function Footer() {
 				</p>
 				<div className="flex flex-row items-center">
 					<a href={FOOTER_LINKS.social.torque_fb} target="_blank">
-						<img
+						<Image
 							src="/assets/icons/icons8-facebook-48.png"
 							className={styles.social_link}
 						/>
@@ -92,7 +93,7 @@ export default function Footer() {
 						href={`mailto:${FOOTER_LINKS.social.torque_email}`}
 						target="_blank"
 					>
-						<img
+						<Image
 							src="/assets/icons/icons8-envelope-48.png"
 							className={styles.social_link}
 						/>

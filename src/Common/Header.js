@@ -16,19 +16,19 @@ const Header = () => {
       <h1 className={styles.title}>
         <Link href="/">
           <a className={styles.headerLink}>
-            <img
+            <Image
               src={"/ignite/assets/icons/g20-logo.png"}
               height="20%"
               width="20%"
               className={styles.iitgn_logo_header}
             />
-            <img
+            <Image
               src={"/ignite/assets/icons/iitgn-logo-white.png"}
               height="20%"
               width="20%"
               className={styles.iitgn_logo_header}
             />
-            <img
+            <Image
               src={"/ignite/assets/icons/logo_lal_minar.png"}
               height="20%"
               width="20%"
