@@ -2,7 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import { useState, useEffect } from "react";
 import styles from "../styles/Home.module.css";
-import Popup from "../src/Common/Popup";
+// import Popup from "../src/Common/Popup";
 import IGNITE_EVENTS from "../src/Constants/ignite_events";
 
 const Home = () => {
@@ -87,12 +87,12 @@ const Home = () => {
             >
               <button className={styles.register_btn}>Register Now!</button>
             </a>
-            <p className="mt-3 font-[oxanium] text-white">
+            {/* <p className="mt-3 font-[oxanium] text-white">
               Deadline: April 14, 2023
-            </p>
+            </p> */}
           </div>
         </div>
-        <Popup />
+        {/* <Popup /> */}
         <div id="About" className={styles.mainpage}>
           <h3 className={styles.subtitle}>About G20-IGNITE</h3>
           <p className={styles.desc}>
